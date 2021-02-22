@@ -23,11 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "city7 - overworld"
+        "City 7 - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1613083166",
+        "cacheTag": "1614025927",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,14 +41,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "City 7",
+            "name": "North",
             "zoomLevels": 5,
             "defaultZoom": 1,
             "maxZoom": 5,
-            "path": "city7",
+            "path": "North",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "city7 - overworld",
+            "world": "City 7 - overworld",
             "last_rendertime": 1613080249,
             "imgextension": "png",
             "isOverlay": false,
@@ -62,6 +62,29 @@ var overviewerConfig = {
             "minZoom": 0,
             "spawn": false,
             "north_direction": 0
+        },
+        {
+            "name": "South",
+            "zoomLevels": 5,
+            "defaultZoom": 1,
+            "maxZoom": 5,
+            "path": "South",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "City 7 - overworld",
+            "last_rendertime": 1613080249,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -269,
+                66,
+                -129
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
         }
     ]
 };
